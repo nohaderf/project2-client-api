@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fffffff9;
+  color: rgb(39, 38, 38);
+  overflow-x: hidden;
+}
+
+.div-container {
+  margin-top: 100px;
+  text-align: center;
+}
+
+::selection {
+  background: #fff; 
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+::-moz-selection { 
+  color: rgb(255, 255, 255);
+  background: rgb(3, 48, 46);
+}
+
+::selection {
+  color: rgb(255, 255, 255);
+  background: rgb(3, 48, 46);
+}
+
+a:link {
+  color: rgb(255, 255, 255);
+}
+
+a:visited {
+  color:  #FFF;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+a:active {
+  text-decoration: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+button {
+   border: none;
+   outline: none;
+   margin: 10px 0;
+   background-color: rgb(3, 48, 46);
+   font-weight: bold;
+
+   text-transform: uppercase;
+   border-radius: 5px;
+   padding: 7px 15px;
+   color: #FFF;
+   cursor: pointer;
+ }
+
+button:hover {
+  background-color: rgb(60, 210, 203);
+}
+ 
+ /* ================================================== */
+ /*                     SCROLL BAR                     */
+ /* ================================================== */
+
+
+ body::-webkit-scrollbar {
+  width: 1em;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgb(255, 255, 255);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color:  rgb(3, 48, 46);
+}
+
+

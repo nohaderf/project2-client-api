@@ -1,0 +1,26 @@
+.search-div {
+  border: 1px solid rgb(147, 147, 147);
+  border-radius: 10px;
+  width: 20vw;
+  text-align: left;
+  margin-left: 70px;
+}
+
+.search- {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.search-icon {
+  padding-left: 10px;
+}
+
+.search {
+  padding-left: 10px;
+  width:80%;
+}
+
+.search textarea:focus, input:focus{
+  outline: none; 
+}
+

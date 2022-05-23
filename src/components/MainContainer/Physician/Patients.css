@@ -1,0 +1,85 @@
+.patients-div {
+    margin-top: 20px;
+}
+
+table.patients-table {
+    table-layout: fixed;
+    width: 90%;
+    /* text-align: center; */
+    margin: auto;
+}
+  
+  table th.patients-header {
+    text-transform: uppercase;
+    background-color: #e7e7e7;
+    padding: 5px 20px;
+    color: #313131;
+    text-align: left;
+  }
+  
+  .patient-info {
+    table-layout: fixed;
+    text-align: left;
+    background-color: #ffffff;
+    color: #313131;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  .patient-info td {
+    padding: 10px 20px;
+    font-size: 0.9em;
+    border-bottom: 1px solid #1c0d0d20;
+  }
+  
+  .patients-table {
+    width: 90%;
+    /* counter-reset: row-num -1; */
+    border:rgba(58, 58, 58, 0.404);
+  }
+  .patients-table tr {
+    counter-increment: row-num;
+  }
+
+  /* .patients-table  tr td:first-child::before {
+      content: counter(row-num) " ";
+      margin-left: 48%;
+      margin-right: 50%;
+      margin-top: 10px;
+  }
+   */
+  .new-app-btn {
+      margin-bottom: 10px;
+  }
+
+  .search-bar {
+    /* margin: 10px 0px; */
+    margin: auto;
+    background: #e7e7e7;
+    border-radius: 40px;
+    height: 30px;
+    width: 16%;
+  }
+
+.search {
+  background: transparent;
+  border: none;
+  color: rgb(79, 79, 79);
+  height: 28px;
+}
+
+.search- {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.search-icon {
+  color:  rgb(156, 156, 156);
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
+tr:hover {
+  background-color: #c7fdf4;
+}

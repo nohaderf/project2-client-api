@@ -1,0 +1,70 @@
+.new-app-form {
+    margin-top: 50px;
+    margin-right: 20px;
+    font-size: 0.9em;
+}
+
+.new-app-span {
+    margin-left: 20px;
+}
+
+.new-app-span label {
+    margin-right: 10px;
+}
+
+.new-app-form input {
+    border: 1px solid rgb(195, 195, 195);
+}
+
+.new-app-input {
+    height: 23px;
+    border-radius: 5px;
+}
+
+.new-app-submit-btn {
+    margin-left: 20px;
+    color: white;
+    background-color: rgb(89, 89, 89);
+    padding: 5px 10px;
+}
+
+.new-app-selector {
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 5px;
+    height: 25px;
+    margin-left: -10px;
+}
+.input-span ::placeholder {
+    color: rgb(118, 118, 118);
+    font-size: 0.9em;
+    padding-left: 8px;
+}
+
+.input-span {
+    margin-left: 5px;
+}
+.input-wrapper {
+    display:inline-block;
+    position: relative
+}
+.input-wrapper:after {
+    font-family: 'FontAwesome';
+    content: '\f274';
+    position: absolute;
+    color: grey;
+    right: 8px;
+    top: 6px;
+}
+
+.calendar {
+    position: absolute;
+    background-color: white;
+    box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.034),0 6.7px 5.3px rgba(0, 0, 0, 0.048),0 12.5px 10px rgba(0, 0, 0, 0.06);
+}
+
+.calendar-close-btn {
+    position: absolute;
+    top: 1px;
+    right: 10px;
+    font-size: 2em;
+}

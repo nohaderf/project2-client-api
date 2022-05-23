@@ -1,0 +1,63 @@
+.appointments-div {
+    margin-top: 20px;
+}
+
+table.appointments-table {
+    table-layout: fixed;
+    width: 90%;
+    margin: auto;
+}
+  
+table th.appointments-header {
+  text-transform: uppercase;
+  background-color: #e7e7e7;
+  padding: 5px 20px;
+  color: #313131;
+  text-align: left;
+}
+  
+.appointment-info {
+  table-layout: fixed;
+  text-align: left;
+  background-color: #ffffff;
+  color: #313131;
+  font-family: 'Oswald', sans-serif;
+}
+
+.appointment-info td {
+  padding: 0px 20px;
+  font-size: 0.9em;
+  border-bottom: 1px solid #1c0d0d20;
+}
+  
+.appointments-table {
+  width: 90%;
+  border:rgba(58, 58, 58, 0.404);
+}
+
+.appointments-table tr {
+  counter-increment: row-num;
+}
+
+.new-app-btn {
+    margin-bottom: 10px;
+}
+
+.edit-btn {
+  padding: 5px 10px;
+  margin-right: 8px;
+  background-color: rgb(89, 89, 89);
+}
+
+.upper-cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 70px;
+  margin-bottom: -30px;
+}
+
+.search-span {
+  position: relative;
+  margin-right: 70px;
+}

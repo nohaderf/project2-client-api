@@ -1,0 +1,24 @@
+.about {
+    margin: auto;
+    text-align: center;
+    max-width: 90vw;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 25px;
+}
+
+.about-card {
+    width: 25vw;
+    text-align: center;
+    margin: auto;
+
+}
+
+.about-img {
+    width: 25vw;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
